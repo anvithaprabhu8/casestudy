@@ -1,0 +1,5 @@
+package com.kudla.repositories;
+
+public interface UserRepository {
+
+}

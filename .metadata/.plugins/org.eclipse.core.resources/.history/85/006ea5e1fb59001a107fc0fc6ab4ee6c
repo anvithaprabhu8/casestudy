@@ -1,0 +1,9 @@
+package com.kudla.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.kudla.entities.User;
+
+public class UserRepository implements JpaRepository<User, Integer> {
+
+}

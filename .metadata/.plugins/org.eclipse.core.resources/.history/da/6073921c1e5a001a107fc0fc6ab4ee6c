@@ -1,0 +1,9 @@
+package com.kudla.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.kudla.entities.StationUser;
+
+public interface StationUserRepository extends JpaRepository<StationUser, Integer> {
+
+}

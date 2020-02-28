@@ -1,0 +1,19 @@
+package com.kudla.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.kudla.entities.User;
+import com.kudla.repositories.UserRepository;
+
+@RestController
+public class UserService {
+
+	@Autowired
+	private UserRepository repo;
+	
+	public void save(User user) {
+		repo.save(user);
+	}
+	
+}

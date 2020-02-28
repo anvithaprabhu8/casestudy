@@ -1,0 +1,14 @@
+package com.kudla.controllers;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class IndexController {
+	
+	@RequestMapping("/")
+	public List<User> getAll() {
+		return "login";
+	}
+	
+}
